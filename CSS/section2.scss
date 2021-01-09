@@ -1,0 +1,45 @@
+.section-2{
+  width: 100%;
+
+  &__container{
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title{
+    margin-top: 5em;
+    margin-bottom: 3em;
+
+    &::before{
+      content: 'ABOUT';
+      color: #f4f5f7;
+      font-size: 3rem;
+      height: 60px;
+      margin: 0 auto;
+      margin-left: -2rem;
+      top: -2rem;
+      position: absolute;
+      z-index: -5;
+      letter-spacing: 1rem;
+    }
+  }
+
+  &__text{
+    margin-bottom: 3em;
+  }
+
+  &__about-button{
+    font-size: 20px;
+    padding: 10px 80px;
+    border: solid 2px #707070;
+    border-radius: 5px;
+    transition: all 0.5s;
+
+    &:hover{
+      border: solid 2px #54c4bc;
+      color: #54c4bc;
+      padding: 11px 82px;
+    }
+  }
+}

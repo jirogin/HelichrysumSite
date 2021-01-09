@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "AAAA,AAAA,SAAS,CAAA;EACP,GAAG,EAAE,IAAI;CAWV;;AATE,AAAD,mBAAW,CAAA;EACT,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,MAAM;CAChB;;AAEA,AAAD,kBAAU,CAAA;EACR,OAAO,EAAE,YAAY;EACrB,OAAO,EAAE,MAAM;CAChB",
+    "sources": [
+        "work-box.scss"
+    ],
+    "names": [],
+    "file": "work-box.css"
+}

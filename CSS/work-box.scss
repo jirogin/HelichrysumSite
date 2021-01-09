@@ -1,0 +1,13 @@
+.work-box{
+  top: 10em;
+  
+  &--torasoru{
+    display: inline-block;
+    padding: 0 80px;
+  }
+
+  &--enisoru{
+    display: inline-block;
+    padding: 0 80px;
+  }
+}

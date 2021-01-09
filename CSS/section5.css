@@ -1,0 +1,21 @@
+.section-5__container {
+  height: 700px;
+}
+
+.section-5__title {
+  top: 3em;
+}
+
+.section-5__title::before {
+  content: 'MEMBERS';
+  color: #f4f5f7;
+  font-size: 3rem;
+  height: 60px;
+  margin: 0 auto;
+  margin-left: -8rem;
+  top: -2rem;
+  position: absolute;
+  z-index: -10;
+  letter-spacing: 1rem;
+}
+/*# sourceMappingURL=section5.css.map */

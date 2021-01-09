@@ -1,0 +1,46 @@
+.section-3 {
+  width: 100%;
+}
+
+.section-3__container {
+  height: 600px;
+  margin: 0 auto;
+  text-align: center;
+  background-color: #f4f5f7;
+  z-index: -10;
+}
+
+.section-3__title {
+  top: 3em;
+  z-index: 3;
+}
+
+.section-3__title::before {
+  content: 'WORKS';
+  color: #fff;
+  font-size: 3rem;
+  height: 60px;
+  margin: 0 auto;
+  margin-left: -6.2rem;
+  top: -2rem;
+  position: absolute;
+  z-index: -5;
+  letter-spacing: 1rem;
+}
+
+.section-3__work-button {
+  top: 14em;
+  font-size: 20px;
+  padding: 10px 80px;
+  border: solid 2px #707070;
+  border-radius: 5px;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+.section-3__work-button:hover {
+  border: solid 2px #54c4bc;
+  color: #54c4bc;
+  padding: 10px 90px;
+}
+/*# sourceMappingURL=section3.css.map */

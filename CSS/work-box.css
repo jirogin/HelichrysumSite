@@ -1,0 +1,14 @@
+.work-box {
+  top: 10em;
+}
+
+.work-box--torasoru {
+  display: inline-block;
+  padding: 0 80px;
+}
+
+.work-box--enisoru {
+  display: inline-block;
+  padding: 0 80px;
+}
+/*# sourceMappingURL=work-box.css.map */

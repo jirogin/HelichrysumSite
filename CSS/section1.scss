@@ -1,0 +1,19 @@
+.section-1{
+  width: 100%;
+
+  &__container{
+    height: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  &__title{
+    color: #333;
+    line-height: normal;
+    position: absolute;
+    top: 50%;
+    left: 45%;
+    transform: translateY(-50%) translateX(-40%);
+  }
+
+}

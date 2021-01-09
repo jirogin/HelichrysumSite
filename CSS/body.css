@@ -1,0 +1,91 @@
+@charset "UTF-8";
+@import url("https://fonts.googleapis.com/css?family=Noto+Sans+JP");
+@font-face {
+  font-family: 'myfont';
+  src: url(../honoka-marugo/font_1_honokamarugo_1.1.ttf);
+}
+
+@media screen and (min-width: 767px) {
+  /*ウィンドウ幅が867px以上の場合に適用*/
+  html, body {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 1440px;
+    max-height: 100vh;
+    padding: 0;
+    text-align: center;
+    font-family: myfont;
+    position: relative;
+    background-size: cover;
+    background-color: #fff;
+    line-height: 3rem;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    letter-spacing: 2px;
+  }
+  hr {
+    background-color: #707070;
+    height: 1px;
+  }
+  .hrline {
+    width: 100%;
+    top: -1em;
+    bottom: -1em;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  h2 {
+    font-size: 25px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  /*ウィンドウ幅が最大767pxまでの場合に適用*/
+  html, body {
+    margin: 0;
+    color: rgba(0, 0, 0, 0.8);
+    max-width: 767px;
+    max-height: 100vh;
+    padding: 0;
+    text-align: center;
+    font-family: 'Noto Sans JP', sans-serif;
+    position: relative;
+    background-size: cover;
+  }
+  * {
+    -webkit-box-sizing: border-box;
+            box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    letter-spacing: 2px;
+    line-height: normal;
+  }
+  hr {
+    background-color: #707070;
+    height: 1px;
+  }
+  .hrline {
+    width: 100%;
+    top: -1em;
+    bottom: -1em;
+  }
+  a {
+    text-decoration: none;
+  }
+  h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+}
+/*# sourceMappingURL=body.css.map */

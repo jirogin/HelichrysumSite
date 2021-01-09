@@ -1,0 +1,35 @@
+$header-m-size: 15px;
+$header-hover-size: 16px;
+$hover-color: #54c4bc;
+
+.header{
+  display: flex;
+  width: 100%;
+  height: 80px;
+  background-color: #fff;
+  align-items: center;
+
+  &__title{
+    margin-right: auto;
+    margin-left: 5%;
+  }
+
+  &__menu-group li{
+    display: inline-block;
+    font-size: $header-m-size;
+    transition: all 0.3s;
+    
+    &:hover{
+      color: $hover-color;
+      font-size: $header-hover-size;
+    }
+  }
+
+  &__menu-item{
+    padding: 0 10px;
+
+    &--contact{
+      padding: 0 50px 0 30px;
+    }
+  }
+}
