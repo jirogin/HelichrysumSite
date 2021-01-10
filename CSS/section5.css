@@ -3,17 +3,17 @@
 }
 
 .section-5__title {
-  top: 3em;
+  top: 10rem;
 }
 
 .section-5__title::before {
   content: 'MEMBERS';
   color: #f4f5f7;
-  font-size: 3rem;
+  font-size: 5rem;
   height: 60px;
   margin: 0 auto;
-  margin-left: -8rem;
-  top: -2rem;
+  margin-left: -11rem;
+  top: -3rem;
   position: absolute;
   z-index: -10;
   letter-spacing: 1rem;

@@ -14,10 +14,10 @@
     padding: 0;
     text-align: center;
     font-family: myfont;
+    font-size: 10px;
     position: relative;
     background-size: cover;
     background-color: #fff;
-    line-height: 3rem;
   }
 
   *{
@@ -44,12 +44,12 @@
   }
 
   h1{
-    font-size: 30px;
+    font-size: 3rem;
     font-weight: 600;
   }
 
   h2{
-    font-size: 25px;
+    font-size: 2.5rem;
   }
 }
 
