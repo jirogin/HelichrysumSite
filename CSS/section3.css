@@ -7,8 +7,11 @@
   height: 600px;
   margin: 0 auto;
   text-align: center;
-  background-color: #f4f5f7;
+  background-color: #f2f2f2;
   z-index: 15;
+  background-image: url(../image/workbg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .section-3__title {

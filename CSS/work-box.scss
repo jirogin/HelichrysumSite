@@ -4,10 +4,26 @@
   &--torasoru{
     display: inline-block;
     padding: 0 80px;
+
+    &__title{
+      text-align: left;
+    }
+
+    &__text{
+      text-align: left;
+    }
   }
 
   &--enisoru{
     display: inline-block;
     padding: 0 80px;
+
+    &__title{
+      text-align: left;
+    }
+
+    &__text{
+      text-align: left;
+    }
   }
 }

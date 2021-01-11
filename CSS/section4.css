@@ -9,12 +9,12 @@
 }
 
 .section-4__title {
-  margin-top: 10rem;
+  margin-top: 15rem;
 }
 
 .section-4__title::before {
   content: 'NEWS';
-  color: #f4f5f7;
+  color: #f2f2f2;
   font-size: 5rem;
   height: 60px;
   margin: 0 auto;
@@ -26,7 +26,7 @@
 }
 
 .section-4__notice-button {
-  top: 18rem;
+  top: 21rem;
   font-size: 2rem;
   padding: 0.5em 3.5em;
   border: solid 2px #707070;
@@ -39,10 +39,5 @@
   border: solid 2px #54c4bc;
   color: #54c4bc;
   padding: 0.5em 4em;
-}
-
-.section-4__hr {
-  max-width: 100%;
-  margin: 0 auto;
 }
 /*# sourceMappingURL=section4.css.map */

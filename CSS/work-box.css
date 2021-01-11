@@ -7,8 +7,24 @@
   padding: 0 80px;
 }
 
+.work-box--torasoru__title {
+  text-align: left;
+}
+
+.work-box--torasoru__text {
+  text-align: left;
+}
+
 .work-box--enisoru {
   display: inline-block;
   padding: 0 80px;
+}
+
+.work-box--enisoru__title {
+  text-align: left;
+}
+
+.work-box--enisoru__text {
+  text-align: left;
 }
 /*# sourceMappingURL=work-box.css.map */
