@@ -4,23 +4,20 @@
 }
 
 .section-3__container {
-  height: 600px;
+  height: 800px;
   margin: 0 auto;
   text-align: center;
-  background-color: #f2f2f2;
+  background-color: #fff;
   z-index: 15;
-  background-image: url(../image/workbg.png);
-  background-repeat: no-repeat;
-  background-size: cover;
 }
 
 .section-3__title {
-  top: 10rem;
+  top: 20rem;
 }
 
 .section-3__title::before {
   content: 'WORKS';
-  color: #fff;
+  color: #f2f2f2;
   font-size: 5rem;
   height: 60px;
   margin: 0 auto;
@@ -33,7 +30,7 @@
 }
 
 .section-3__work-button {
-  top: 30rem;
+  top: 40rem;
   font-size: 2rem;
   padding: 0.5em 3.5em;
   border: solid 2px #707070;

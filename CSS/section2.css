@@ -3,13 +3,13 @@
 }
 
 .section-2__container {
-  height: 500px;
+  height: 600px;
   margin: 0 auto;
   text-align: center;
 }
 
 .section-2__title {
-  margin-top: 15rem;
+  margin-top: 25rem;
   margin-bottom: 8rem;
   z-index: 10;
 }
