@@ -27,8 +27,9 @@
 .notice-box--1__text {
   font-size: 20px;
   width: 250px;
+  height: auto;
   margin: 0;
-  padding: 20px 0;
+  padding: 20px 20px;
   border: solid 3px #f2f2f2;
   border-top: 0;
   border-radius: 0 0 15px 15px;
@@ -55,8 +56,9 @@
 .notice-box--2__text {
   font-size: 20px;
   width: 250px;
+  height: auto;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 20px;
   border: solid 3px #f2f2f2;
   border-top: 0;
   border-radius: 0 0 15px 15px;
@@ -83,8 +85,9 @@
 .notice-box--3__text {
   font-size: 20px;
   width: 250px;
+  height: auto;
   margin: 0 auto;
-  padding: 20px 0;
+  padding: 20px 20px;
   border: solid 3px #f2f2f2;
   border-top: 0;
   border-radius: 0 0 15px 15px;

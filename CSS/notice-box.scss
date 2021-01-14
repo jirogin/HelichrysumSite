@@ -30,8 +30,9 @@ $box-text-radius: 0 0 15px 15px;
     &__text{
       font-size: $box-text;
       width: $box-width;
+      height: auto;
       margin: 0;
-      padding: 20px 0;
+      padding: 20px 20px;
       border: solid 3px #f2f2f2;
       border-top: 0;
       border-radius: $box-text-radius;
@@ -56,8 +57,9 @@ $box-text-radius: 0 0 15px 15px;
     &__text{
       font-size: $box-text;
       width: $box-width;
+      height: auto;
       margin: 0 auto;
-      padding: 20px 0;
+      padding: 20px 20px;
       border: solid 3px #f2f2f2;
       border-top: 0;
       border-radius: $box-text-radius;
@@ -82,8 +84,9 @@ $box-text-radius: 0 0 15px 15px;
     &__text{
       font-size: $box-text;
       width: $box-width;
+      height: auto;
       margin: 0 auto;
-      padding: 20px 0;
+      padding: 20px 20px;
       border: solid 3px #f2f2f2;
       border-top: 0;
       border-radius: $box-text-radius;

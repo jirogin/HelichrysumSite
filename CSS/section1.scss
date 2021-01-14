@@ -7,11 +7,22 @@
     text-align: center;
   }
 
+  &__corp{
+    color: #333;
+    line-height: normal;
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    transform: translateY(-50%) translateX(-40%);
+    line-height: 5rem;
+    font-size: 6rem;
+  }
+
   &__title{
     color: #333;
     line-height: normal;
     position: absolute;
-    top: 50%;
+    top: 55%;
     left: 45%;
     transform: translateY(-50%) translateX(-40%);
     line-height: 5rem;

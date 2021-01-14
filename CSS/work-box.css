@@ -13,6 +13,7 @@
 
 .work-box--torasoru__text {
   text-align: left;
+  margin-top: 1.5rem;
 }
 
 .work-box--enisoru {
@@ -26,5 +27,6 @@
 
 .work-box--enisoru__text {
   text-align: left;
+  margin-top: 1.5rem;
 }
 /*# sourceMappingURL=work-box.css.map */

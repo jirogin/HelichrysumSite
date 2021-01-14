@@ -2,12 +2,15 @@ $box-img: 200px;
 $box-margin: 0 50px;
 $box-text: 20px;
 $box-img-radius: 100px;
+$box-width: 300px;
+$text-padding: 0 40px;
 
 .member-box{
   top: 20rem;
 
   &--1{
     display: inline-block;
+    width: $box-width;
 
     &__img{
       width: $box-img;
@@ -19,11 +22,19 @@ $box-img-radius: 100px;
     &__text{
       font-size: $box-text;
       top: 2em;
+      padding: $text-padding;
+    }
+
+    &__member-position--1{
+      display: block;
+      margin-top: 5px;
+      margin-bottom: -10px;
     }
   }
 
   &--2{
     display: inline-block;
+    width: $box-width;
 
     &__img{
       width: $box-img;
@@ -35,11 +46,19 @@ $box-img-radius: 100px;
     &__text{
       font-size: $box-text;
       top: 2em;
+      padding: $text-padding;
+    }
+
+    &__member-position--2{
+      display: block;
+      margin-top: 5px;
+      margin-bottom: -10px;
     }
   }
 
   &--3{
     display: inline-block;
+    width: $box-width;
 
     &__img{
       width: $box-img;
@@ -51,11 +70,19 @@ $box-img-radius: 100px;
     &__text{
       font-size: $box-text;
       top: 2em;
+      padding: $text-padding;
+    }
+
+    &__member-position--3{
+      display: block;
+      margin-top: 5px;
+      margin-bottom: -10px;
     }
   }
 
   &--4{
     display: inline-block;
+    width: $box-width;
 
     &__img{
       width: $box-img;
@@ -67,6 +94,13 @@ $box-img-radius: 100px;
     &__text{
       font-size: $box-text;
       top: 2em;
+      padding: $text-padding;
+    }
+
+    &__member-position--4{
+      display: block;
+      margin-top: 5px;
+      margin-bottom: -10px;
     }
   }
 }

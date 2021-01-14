@@ -4,6 +4,7 @@
 
 .member-box--1 {
   display: inline-block;
+  width: 300px;
 }
 
 .member-box--1__img {
@@ -16,10 +17,18 @@
 .member-box--1__text {
   font-size: 20px;
   top: 2em;
+  padding: 0 40px;
+}
+
+.member-box--1__member-position--1 {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 .member-box--2 {
   display: inline-block;
+  width: 300px;
 }
 
 .member-box--2__img {
@@ -32,10 +41,18 @@
 .member-box--2__text {
   font-size: 20px;
   top: 2em;
+  padding: 0 40px;
+}
+
+.member-box--2__member-position--2 {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 .member-box--3 {
   display: inline-block;
+  width: 300px;
 }
 
 .member-box--3__img {
@@ -48,10 +65,18 @@
 .member-box--3__text {
   font-size: 20px;
   top: 2em;
+  padding: 0 40px;
+}
+
+.member-box--3__member-position--3 {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 
 .member-box--4 {
   display: inline-block;
+  width: 300px;
 }
 
 .member-box--4__img {
@@ -64,5 +89,12 @@
 .member-box--4__text {
   font-size: 20px;
   top: 2em;
+  padding: 0 40px;
+}
+
+.member-box--4__member-position--4 {
+  display: block;
+  margin-top: 5px;
+  margin-bottom: -10px;
 }
 /*# sourceMappingURL=member-box.css.map */
