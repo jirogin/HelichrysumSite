@@ -16,8 +16,13 @@
     font-family: myfont;
     font-size: 10px;
     position: relative;
-    background-size: cover;
-    background-color: #fff;
+    background-image: url('../image/bgflower.png');
+    background-attachment: fixed;
+    background-color:rgba(255,255,255,0.7);
+    background-blend-mode:lighten;
+    background-position: center;
+    background-size: 35%;
+    background-repeat: no-repeat;
   }
 
   *{
@@ -67,7 +72,6 @@
     text-align: center;
     font-family: 'Noto Sans JP', sans-serif;
     position: relative;
-    background-size: cover;
   }
   
   *{
